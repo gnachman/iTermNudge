@@ -50,13 +50,6 @@ Allows you to manipulate [iTerm 2 v3](https://www.iterm2.com) from the command l
 		E.g. Set a badge with the current directory:
 		iterm_nudge --badge "$(pwd)"
 
-	--clear_badge
-		Clears the badge
-
-		I.e.
-		iterm_nudge --clear_badge
-		(note, this will override the --badge argument if both are supplied)
-
 	--force
 		Use this to output the escape codes even if $TERM_PROGRAM isn't
 		set to iTerm. Useful if you're in an ssh session, but you weren't able
